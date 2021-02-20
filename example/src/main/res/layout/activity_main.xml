@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.umang.extendedautocompleteview.MainActivity">
 
-  <com.umang.extendedautocomplete.ExtendedAutoCompleteTextView
+  <dev.assemblage.extendedautocomplete.ExtendedAutoCompleteTextView
       android:id="@+id/auto_text_view"
       android:layout_width="match_parent"
       android:layout_height="48dp"/>

@@ -1,4 +1,4 @@
-package com.umang.extendedautocomplete;
+package dev.assemblage.extendedautocomplete;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,7 +8,7 @@ import android.view.MotionEvent;
  * @author Umang Chamaria
  */
 public class ExtendedAutoCompleteTextView
-    extends androidx.appcompat.widget.AppCompatAutoCompleteTextView{
+    extends androidx.appcompat.widget.AppCompatAutoCompleteTextView {
   public ExtendedAutoCompleteTextView(Context context) {
     super(context);
   }
@@ -22,7 +22,6 @@ public class ExtendedAutoCompleteTextView
   }
 
   @Override public boolean onTouchEvent(MotionEvent event) {
-    setDropDownBackgroundResource(R.color.milky_white);
     showDropDown();
     return super.onTouchEvent(event);
   }

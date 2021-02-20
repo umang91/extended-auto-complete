@@ -1,8 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
-    package="com.umang.extendedautocomplete"
->
-
+    package="dev.assemblage.extendedautocomplete">
   <application>
 
   </application>

@@ -1,9 +1,9 @@
 package com.umang.extendedautocompleteview;
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
-import com.umang.extendedautocomplete.ExtendedAutoCompleteTextView;
+import androidx.appcompat.app.AppCompatActivity;
+import dev.assemblage.extendedautocomplete.ExtendedAutoCompleteTextView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
