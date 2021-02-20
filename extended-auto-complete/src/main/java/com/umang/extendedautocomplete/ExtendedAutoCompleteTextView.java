@@ -8,7 +8,7 @@ import android.view.MotionEvent;
  * @author Umang Chamaria
  */
 public class ExtendedAutoCompleteTextView
-    extends android.support.v7.widget.AppCompatAutoCompleteTextView{
+    extends androidx.appcompat.widget.AppCompatAutoCompleteTextView{
   public ExtendedAutoCompleteTextView(Context context) {
     super(context);
   }
