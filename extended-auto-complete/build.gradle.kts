@@ -29,3 +29,5 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     compileOnly("androidx.appcompat:appcompat:1.2.0")
 }
+
+apply(plugin = "com.vanniktech.maven.publish")
