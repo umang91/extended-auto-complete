@@ -1,4 +1,4 @@
-## 2.0.0
+## 2.0.0 (16-01-2021)
 - Minimum SDK version updated to API level 21
 - Target SDK version updated to API level 30
 - Compile SDK version updated to API level 30
